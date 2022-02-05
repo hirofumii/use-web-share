@@ -1,6 +1,7 @@
 # use-web-share
 
-React hook that triggering the native web share dialog in supported browsers.
+React hook that triggering the native web share dialog in supported browsers.  
+Supports Web share API Level 2.
 
 ## Installation
 

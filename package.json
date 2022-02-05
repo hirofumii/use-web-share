@@ -1,7 +1,7 @@
 {
   "name": "use-web-share",
-  "version": "0.0.1",
-  "description": "React hook that triggering the native web share dialog in supported browsers",
+  "version": "0.1.0",
+  "description": "React hook that triggering the native web share dialog in supported browsers. Supports Web share API Level 2",
   "main": "./dist/src/main.js",
   "exports": {
     ".": "./dist/src/main.js"
@@ -15,13 +15,18 @@
   },
   "scripts": {
     "build": "tsc",
+    "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hirofumii/use-web-share.git"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "hook",
+    "web share"
+  ],
   "author": "hirofumii",
   "license": "MIT",
   "bugs": {
